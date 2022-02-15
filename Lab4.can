@@ -1,0 +1,30 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  message vehicle msg;
+}
+
+on start
+{
+  msg.speed = 30;
+  write ("Press - A to rise speed");
+  write ("Press - D to reduce speed");
+}
+
+
+
+on key 'A'
+{
+  if (getSignal(speed) >= 0)
+  {
+    
+  }
+}
+
+
+setSignal(speed,i)
